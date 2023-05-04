@@ -1,5 +1,7 @@
 function Projects () {
-  return <h1>Home</h1>
+  return (
+    <h1>Projects</h1>
+  );
 }
 
 export default Projects;
