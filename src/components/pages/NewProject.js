@@ -19,7 +19,7 @@ function NewProject(){
       // mandando os dados para o servidor
       body: JSON.stringify(project),
     })
-      .then((resp) => resp.json)
+      .then((resp) => resp.json())
       .then((data) => {
         console.log(data)
         //redirect
